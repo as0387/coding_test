@@ -26,7 +26,5 @@ public class Test1000 {
         int b = Integer.parseInt(st.nextToken());
 
         System.out.println(a + b);
-
-
     }
 }
