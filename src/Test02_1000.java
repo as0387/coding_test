@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Test1000 {
+public class Test02_1000 {
     public static void main(String[] args) throws IOException {
         //단순 규칙으로 문자열을 분리해줄 떄 StringToKenizer를 사용하자!
 
