@@ -1,7 +1,9 @@
+package Day4;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Test04_11022 {
+public class Test04_11021 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -10,9 +12,7 @@ public class Test04_11022 {
         StringTokenizer st;
         for (int i = 1; i <= n; i++) {
             st = new StringTokenizer(br.readLine(), " ");
-            int A = Integer.parseInt(st.nextToken());
-            int B = Integer.parseInt(st.nextToken());
-            bw.write("Case #"+i+": "+A+" + " +B+" = " + (A+B) + "\n");
+            bw.write("Case #"+i+": " + (Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken())) + "\n");
             //StringBuilder 사용 append append 체인식으로 사용 가능
         }
         br.close();
