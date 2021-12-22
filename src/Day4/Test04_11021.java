@@ -5,6 +5,7 @@ import java.util.StringTokenizer;
 
 public class Test04_11021 {
     public static void main(String[] args) throws IOException {
+        //for문 덧셈 BufferedWriter 사용
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());

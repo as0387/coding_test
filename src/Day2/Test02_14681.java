@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class Test02_14681 {
     public static void main(String[] args) throws IOException {
+        //사분면 구분
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int x = Integer.parseInt(br.readLine());

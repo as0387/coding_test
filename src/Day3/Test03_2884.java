@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Test03_2884 {
     public static void main(String[] args) throws IOException {
-
+        //시간 계산 -45분
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String str = br.readLine();

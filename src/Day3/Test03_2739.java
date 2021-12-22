@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class Test03_2739 {
     public static void main(String[] args) throws IOException {
+        //곱셈
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine()); //String으로 짜르는 형식이 아니면 StringTokenizer 사용 할 필요 없음.

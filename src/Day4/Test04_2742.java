@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class Test04_2742 {
     public static void main(String[] args) throws IOException {
+        //거꾸로 반복문
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
