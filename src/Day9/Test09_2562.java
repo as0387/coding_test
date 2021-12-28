@@ -17,8 +17,8 @@ public class Test09_2562 {
         for (int i = 0; i < 9; i++) {
             arr[i] = Integer.parseInt(br.readLine());
         }
-        int max = arr[0];
-        int num = 0;
+    int max = arr[0];
+    int num = 0;
         for (int i:
              arr) {
             num++;
