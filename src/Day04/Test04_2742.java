@@ -1,16 +1,17 @@
-package Day2;
+package Day04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Test02_1330 {
+public class Test04_2742 {
     public static void main(String[] args) throws IOException {
-        //성적 산출
+        //거꾸로 반복문
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int a = Integer.parseInt(br.readLine());
-
-        System.out.println((a >= 90) ? "A" : (a >= 80)  ? "B" : (a >= 70) ? "C" : (a >= 60) ? "D" : "F");
+        int n = Integer.parseInt(br.readLine());
+        for (int i = n; i >= 1; i--) {
+            System.out.println(i);
+        }
     }
 }

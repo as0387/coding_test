@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class Test10_1546 {
     public static void main(String[] args) throws IOException {
+        //3개 수 받고 평점 올리는 식을 이용해서 평균값 구하기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         double[] arr = new double[Integer.parseInt(br.readLine())];
 

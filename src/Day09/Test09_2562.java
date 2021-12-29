@@ -1,10 +1,8 @@
-package Day9;
+package Day09;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test09_2562 {
     public static void main(String[] args) throws IOException {
